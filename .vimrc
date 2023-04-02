@@ -32,6 +32,7 @@ call plug#begin()
 	Plug 'https://github.com/vim-airline/vim-airline.git'
 	Plug 'vim-airline/vim-airline-themes'
 	Plug 'https://github.com/joshdick/onedark.vim.git'
+	Plug 'https://github.com/tell-k/vim-autopep8.git'
 call plug#end() 
 
 " Multiple paste of the same yank 
