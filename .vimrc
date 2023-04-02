@@ -284,4 +284,8 @@ nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 imap <silent> <C-j> <Plug>(copilot-next)
 imap <silent> <C-k> <Plug>(copilot-previous)
 imap <silent> <C-\> <Plug>(copilot-dismiss)
+let g:copilot_filetypes = {
+			\ 'markdown': v:true,
+			\ 'md': v:true,
+			\ }
 " End of settings of the copilot plugin
