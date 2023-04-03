@@ -7,6 +7,7 @@ set relativenumber
 set tabstop=4
 set shiftwidth=4
 set spell
+set backspace=indent,eol,start
 
 " Set this vimrc to be only compatible with vim (not vi)
 set nocompatible
