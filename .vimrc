@@ -127,6 +127,7 @@ set encoding=utf-8
 " Some servers have issues with backup files, see #649
 set nobackup
 set nowritebackup
+command Format call CocAction('format')
 
 " Having longer updatetime (default is 4000 ms = 4s) leads to noticeable
 " delays and poor user experience
